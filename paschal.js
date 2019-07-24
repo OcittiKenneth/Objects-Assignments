@@ -4,10 +4,11 @@
 //1.
 
 
-// declaring the object "kampala" and defining it with keys and its values 
-var kampala={
+// declaring the object "city" and defining it with keys and its values 
+var city ={
   // this contains 5 keys
   // using the "camel notation to name."
+  name : "kampala",
   size : "quiteBig",
   hills : 5,
   roads :"bad😆",
@@ -24,7 +25,7 @@ var kampala={
   }
 };
 // this is a command calling to print out the contents of the key "hills" in the console
-console.log(kampala.hills);
+console.log(city.hills);
 
 
 
@@ -32,10 +33,11 @@ console.log(kampala.hills);
 //2.
 
 
-// declaring the object "Entebbe" and defining it with keys and its values 
-var Entebbe={
+// declaring the object "country" and defining it with keys and its values 
+var country ={
   // this contains 5 keys
   // using the "camel notation to name."
+  name : "switzerland",
   size : "quiteSmall▫",
   hills : 2,
   roads :"superb🎁",
@@ -52,17 +54,18 @@ var Entebbe={
   }
 };
 // this is a command calling to print out the contents of the key "size" in the console
-console.log(Entebbe.size);
+console.log(country.size);
 
 
 //==========================================================================================================================================
 //3.
 
 
-// declaring the object "Mukono" and defining it with keys and its values 
-var Mukono={
+// declaring the object "town" and defining it with keys and its values 
+var town ={
   // this contains 5 keys
   // using the "camel notation to name."
+  name : "mukono",
   size : "small_ish",
   hills : 3,
   roads :"poor😢",
@@ -79,17 +82,18 @@ var Mukono={
   }
 };
 // this is a command calling to print out the contents of the key "weather",which is a function, in the console
-console.log(Mukono.weather());
+console.log(town.weather());
 
 
 //=======================================================================================================================================================
 //4.
 
 
-// declaring the object "Jinja" and defining it with keys and its values 
-var Jinja={
+// declaring the object "continent" and defining it with keys and its values 
+var continent ={
   // this contains 5 keys
   // using the "camel notation to name."
+  name : "Asia",
   size : "behemoth",
   hills : 8,
   roads :"getting better💯",
@@ -106,16 +110,17 @@ var Jinja={
   }
 };
 // this is a command calling to print out the contents of the key "vegetation" in the console
-console.log(Jinja.vegetation());
+console.log(continent.vegetation());
 
 //=================================================================================================================================================
 //5.
 
 
-// declaring the object "mbarara" and defining it with keys and its values 
-var mbarara={
+// declaring the object "planet" and defining it with keys and its values 
+var planet={
   // this contains 5 keys
   // using the "camel notation to name."
+  name : "Earth",
   size : "quiteBig😎",
   hills : 20,
   roads :"average👀",
@@ -132,7 +137,7 @@ var mbarara={
   }
 }
 // this is a command calling to print out the contents of the key "roads" in the console
-console.log(mbarara.roads);
+console.log(planet.roads);
 
 
 //============================================================================================================================================================
