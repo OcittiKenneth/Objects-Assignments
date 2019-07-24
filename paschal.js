@@ -4,7 +4,7 @@
 //1.
 
 
-// declaring the city and defining it with keys and its values 
+// declaring the object "kampala" and defining it with keys and its values 
 var kampala={
   // this contains 5 keys
   // using the "camel notation to name."
@@ -32,7 +32,7 @@ console.log(kampala.hills);
 //2.
 
 
-// declaring the object city and defining it with keys and its values 
+// declaring the object "Entebbe" and defining it with keys and its values 
 var Entebbe={
   // this contains 5 keys
   // using the "camel notation to name."
@@ -59,7 +59,7 @@ console.log(Entebbe.size);
 //3.
 
 
-// declaring the city and defining it with keys and its values 
+// declaring the object "Mukono" and defining it with keys and its values 
 var Mukono={
   // this contains 5 keys
   // using the "camel notation to name."
@@ -86,7 +86,7 @@ console.log(Mukono.weather());
 //4.
 
 
-// declaring the city and defining it with keys and its values 
+// declaring the object "Jinja" and defining it with keys and its values 
 var Jinja={
   // this contains 5 keys
   // using the "camel notation to name."
@@ -112,7 +112,7 @@ console.log(Jinja.vegetation());
 //5.
 
 
-// declaring the city and defining it with keys and its values 
+// declaring the object "mbarara" and defining it with keys and its values 
 var mbarara={
   // this contains 5 keys
   // using the "camel notation to name."
