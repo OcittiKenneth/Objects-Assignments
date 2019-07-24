@@ -1,19 +1,11 @@
 /* this piece of code describes a house object*/
 var house = {
     paint: "red",
-    // house is painted red
-
     doors: 5,
-    //the house has 5 doors
-
     vents: 20,
-    //it has 20 ventleters
-
     windows:15,
-    // it has also 15 windows 
-
     rooms:30,
-    //the house object also 30 room property
+
 
     /* in this object has 2 methods*/
     visit:function() {
@@ -54,19 +46,10 @@ document.write("<br/>");
 /* this piece of code shows the properties and methods of a shirt object*/
 var shirt = {
     color: "blue",
-    // shirt is color red
-
     buttons: 5,
-    //it has 5 buttons
-
     sleev: "long",
-    //its a long sleeved shirt
-
     cola: "small",
-    // it has a small cola
-
     design:"chacked",
-    //its desing is chacked
 
     /* in this object has 2 methods*/
     nice:function() {
@@ -108,19 +91,10 @@ document.write("<br/>");
 /* this piece of code shows the properties and methods of a projector object*/
 var projector = {
     color: "white",
-    // shirt is color red
-
     buttons: 5,
-    //it has 5 buttons
-
     lens: "big",
-    //it has a big lens
-
     stand: "small",
-    // it has a small stand
-
     design:"double",
-    //its design is a double booth
 
     /* in this object has 2 methods*/
    view:function() {
@@ -160,23 +134,14 @@ document.write("<br/>");
 
 
 
-/* this piece of code shows the properties and methods of a projector object*/
+/* this piece of code shows the properties and methods of a garage object*/
 var garage = {
     car: "22",
-    // shirt is color red
-
     bikes: 34,
-    //it has 5 buttons
-
     trucks: "33",
-    //it has a big lens
-
     spair: "many",
-    // it has a small stand
-
     tools:"few",
-    //its design is a double booth
-
+   
     /* in this object has 2 methods*/
    make:function() {
         var fix="we put your car back to the road";
