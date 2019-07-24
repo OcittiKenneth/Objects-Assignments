@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /* Object with some attributes of a woman*/
+    var woman = {
+        name: "deb",
+        age: 16,
+        maritalStatus:"married",
+        placeOfResidence:"Mattigga",
+        /* This function measures complexity of a woman basing on her age*/
+        complexity: function(){
+            if (woman.age > 40){
+                return "At that age she is dead complex";
+            }
+            else{
+                return " She is a Happy go lucky";
+            }
+        },
+        /*This function assess the ability of a woman to be late for classes*/
+        Latability: function(){
+            if (woman.placeOfResidence=="Mattigga"){
+                return "She is prone to arriving late";
+            }
+            else{
+                return "she has absolutely no reason to be one minute late";
+            }
+        }
+    }
+    /*this is an object for child that analyses adolscence and vulnerability*/
+    var child={
+        age : 10,
+        sex :"female",
+        parentalStatus : "late",
+        placeOfResidice : "katutura",
+        parentsTribe : "bushmen",
+        /*function for vulnerability*/
+        vulnarability :function(){
+            if (child.parentsTribe=="bushmen" && child.placeOfResidence=="katutura"){
+                return "this child needs urgent help, she is so vulnerable";
+            }
+            else{
+                return "this is a regular minor";
+            }
+
+        },
+        /*function which assesses vulnerability*/
+        adolscence: function(){
+            if (child.age>16){
+                return "This child is in late puberty or an adult";
+            }
+            else{
+                return "This is a minor. Keep a safe distance";
+            }
+        }
+
+    }
+/* object with relationship features*/
+var relationship = {
+    ageOfWife: 22,
+    ageOfHusband:91,
+    natureOfResidence: "slum",
+    employmentStatusOfCouple: "unemployed",
+    personalityOfBoth: "extrovert",
+    /*function that assess stability of a marriage*/
+    maritalStability: function(){
+        if (relationship.employmentStatusOfCouple =="unemployed" && relationship.personalityOfBoth=="extrovert"){
+            return "boy this is a hot loud broke mix, most likely unstable";
+        }
+        else if(relationship.natureOfResidence == "slum" && relationship.ageOfHusband==40){
+            return "the slum can easily spark a hot fight";
+        }
+        else{
+            return "they have chances of being stable if they leave that slum"
+        }
+
+    },
+    /*function that assess crosgeneration on marital stability*/
+    crossgenerational: function(){
+        if (relationship.ageOfHusband-relationship.ageOfWife>=20){
+            return "One of them is either a Daddio or a Mummio";
+        }
+        else{
+            return "same generation, no cross generation seen. go ahead";
+        }
+    }
+
+}
+/*object for alcohol consumption with druck and alcoholism functionality*/
+var alcoholConsumption = {
+/*function that returns the effect of bottles consumed and days to alcoholism*/
+    alcoholism : function(bottles, days){
+        if (bottles > 5 && days<=1){
+            return "this is too much ethanol, its gonna get you ill"
+        }
+        else if (alcoholConsumption.bottles<4 && alcoholConsumption.days<=2){
+            return "you stand a high chance of becoming alcoholic"
+        }
+        else{
+            return "you are not yet alcoholic"
+        }
+
+    },
+    drunk: function(smell, vision, balance){
+        if(smell =="rotten egg"){
+            return "you are so drunk, dont touch the wheel";
+        }
+        if(vision=="blurred" && balance == 70){
+            return "take your last bottle and head home now";
+
+        }
+        else if(smell == "clear" && vision == "bright"){
+            return "relax, seetback and have a wonderful time"
+        }
+    }
+
+}
+var profitability = {
+    totalSales: 100000,
+    totalCostOfProduction: 500,
+    totalProfit: function(years){
+        profit = profitability.totalSales - profitability.totalCostOfProduction;
+        if (profit <= 0 && years>10){
+            return "this business is just making losses, you will never break even"
+        }
+        else if(profit>50000 && years<1){
+            return "you are making supernormal profits";
+        }
+        else{
+            return "You will get there somehow";
+        }
+
+    },
+    sales: function(customers){
+        if (profitability.sales==customers){
+            return "woow, you have a wide customer base.";
+        }
+        else{
+            return "work towards improving your customer base";
+
+        }
+    }
+
+}
+    console.log(woman.complexity());
+    console.log(woman.Latability());
+    console.log(child.vulnarability());
+    console.log(child.adolscence());
+    console.log(relationship.crossgenerational());
+    console.log(relationship.maritalStability());
+    console.log(alcoholConsumption.alcoholism(6,1));
+    console.log(alcoholConsumption.drunk("rotten egg", "blurred", 20));
+    console.log(profitability.totalProfit(8));
+    console.log(profitability.sales(100000));
+    </script>
+</body>
+</html>
