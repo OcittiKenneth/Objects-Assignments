@@ -6,7 +6,7 @@
 
 // declaring the object "city" and defining it with keys and its values 
 var city ={
-  // this contains 5 keys
+  // this contains 6 keys
   // using the "camel notation to name."
   name : "kampala",
   size : "quiteBig",
@@ -35,7 +35,7 @@ console.log(city.hills);
 
 // declaring the object "country" and defining it with keys and its values 
 var country ={
-  // this contains 5 keys
+  // this contains 6 keys
   // using the "camel notation to name."
   name : "switzerland",
   size : "quiteSmall▫",
@@ -63,7 +63,7 @@ console.log(country.size);
 
 // declaring the object "town" and defining it with keys and its values 
 var town ={
-  // this contains 5 keys
+  // this contains 6 keys
   // using the "camel notation to name."
   name : "mukono",
   size : "small_ish",
@@ -91,7 +91,7 @@ console.log(town.weather());
 
 // declaring the object "continent" and defining it with keys and its values 
 var continent ={
-  // this contains 5 keys
+  // this contains 6 keys
   // using the "camel notation to name."
   name : "Asia",
   size : "behemoth",
@@ -118,7 +118,7 @@ console.log(continent.vegetation());
 
 // declaring the object "planet" and defining it with keys and its values 
 var planet={
-  // this contains 5 keys
+  // this contains 6 keys
   // using the "camel notation to name."
   name : "Earth",
   size : "quiteBig😎",
