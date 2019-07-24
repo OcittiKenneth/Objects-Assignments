@@ -54,8 +54,12 @@ var politician = {
 
     use: function () {
 
-        var needHelp = "this guy is properly useless";
+        var needHelp = "properly useless";
         return user;
     }
+    use: function () {
+
+        var sense = "none";
+        return voter;
+    }
 }
-document.write(politician.needHelp());
