@@ -22,7 +22,7 @@ var kampala={
     var trees = "The trees are cut for firewood🤔";
     return trees;
   }
-}
+};
 // this is a command calling to print out the contents of the key "hills" in the console
 console.log(kampala.hills);
 
@@ -50,7 +50,7 @@ var Entebbe={
     var trees = "The trees are well preserved";
     return trees;
   }
-}
+};
 // this is a command calling to print out the contents of the key "size" in the console
 console.log(Entebbe.size);
 
@@ -77,7 +77,7 @@ var Mukono={
     var trees = "many in number";
     return trees;
   }
-}
+};
 // this is a command calling to print out the contents of the key "weather",which is a function, in the console
 console.log(Mukono.weather());
 
@@ -104,7 +104,7 @@ var Jinja={
     var trees = "The city council cuts down trees rampantly but NGO's are planting more and more🥴";
     return trees;
   }
-}
+};
 // this is a command calling to print out the contents of the key "vegetation" in the console
 console.log(Jinja.vegetation());
 
