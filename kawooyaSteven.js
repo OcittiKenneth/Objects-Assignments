@@ -8,6 +8,21 @@ var house = {
     type: "bangalow",
     colour: "white",
     location: "muyenga"
+    
+    
+    
+        country: function () {
+
+        var residential = "home";
+        return country;
+    }
+        city : function () {
+
+        var commercial = "office";
+        return city;
+    }
+}
+
 
 } 
 document.write(house.type);
@@ -43,7 +58,7 @@ var gun = {
     use: function () {
 
         var user = "long range shots";
-        return user;
+        return use;
     }
 }
 document.write(gun.use());
@@ -59,11 +74,11 @@ var politician = {
     use: function () {
 
         var needHelp = "properly useless";
-        return user;
+        return use;
     }
-    use: function () {
+    head: function () {
 
         var sense = "none";
-        return voter;
+        return head;
     }
 }
