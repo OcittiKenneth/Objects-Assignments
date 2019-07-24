@@ -1,3 +1,7 @@
+/*
+5 object assignment
+*/
+
 //object house
 var house = {
 
