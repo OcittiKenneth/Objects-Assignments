@@ -39,7 +39,7 @@ var country ={
   // using the "camel notation to name."
   name : "switzerland",
   size : "quiteSmall▫",
-  hills : 2,
+  hills : "mountaineous",
   roads :"superb🎁",
   // 
   weather :function(){
@@ -95,7 +95,7 @@ var continent ={
   // using the "camel notation to name."
   name : "Asia",
   size : "behemoth",
-  hills : 8,
+  hills : "cant count",
   roads :"getting better💯",
   // 
   weather :function(){
@@ -105,7 +105,7 @@ var continent ={
   // using a comma at the end of this object because it is still just a key.
   // this key "vegetation" has one method
   vegetation : function(){
-    var trees = "The city council cuts down trees rampantly but NGO's are planting more and more🥴";
+    var trees = "very green continent🥴";
     return trees;
   }
 };
@@ -122,7 +122,7 @@ var planet={
   // using the "camel notation to name."
   name : "Earth",
   size : "quiteBig😎",
-  hills : 20,
+  hills : "a billion",
   roads :"average👀",
   // 
   weather :function(){
