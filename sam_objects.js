@@ -1,6 +1,13 @@
+
 /* declaring the object books and defining it with keys and its values */
-var books = {
-    title: "Chronicles of Narnia", author: "C.S Lewis", publishedDate: 1950 - 56, Genre: "Fantasy",
+
+var book = {
+    title: "Chronicles of Narnia", 
+    author: "C.S Lewis", 
+    publishedDate: 1950 - 56, 
+    Genre: "Fantasy",
+    publisher: "Penguin",
+    
     // method/function declaration for number of copies sold along with author ratings
     copiesSoldWithRating: function (quantitySold) {
         //conditional statement to check quantity of booksSold
@@ -20,53 +27,60 @@ var books = {
     }
 }
 //print out the Book Title, Copies sold, Rating and Profit made from the sales
-console.log("Book Title = " + books.title + "\nRated = " + books.copiesSoldWithRating(956000) + "\nEarning from book Sales = Shs." + books.salesEarn(50000, 955000))
+console.log("Book Title = " + book.title + "\nRated = " + book.copiesSoldWithRating(956000) + "\nEarning from book Sales = Shs." + book.salesEarn(50000, 955000))
 
 /** =============================================================================================================================================================================== */
 
 /* declaring the object temperature and defining it with keys and its values */
-var temperature = {
-    intensity: "high/low", humidity: "low",
+var weather = {
+    intensity: "high/low", 
+    humidity: "low",
+    pressure: "high",
+    hurricane: "medium",
+    thunderstorm: "high"
+    
     //declaring converToCelcius method/function and declaring a parameter fahrenheit
-    converToCelsius: function (fahrenheit) {
-        // formula for converting Fahrenheit to Celcius
-        var toCelsius = (fahrenheit - 32) * 5 / 9
+    highTemperature: function () {
+        //assigning value to the variable heat
+        var heat = "Heatwave Expected in the coming few weeks."
 
         // returning the value of Celcius
-        return toCelsius
+        return heat
     },
     //declaring converFahrenheit method/function and declaring a parameter celcius
-    converToFahrenheit: function (celcius) {
-        // formula for converting Celcius to Fahrenheit
-        var toFahrenheit = (celcius * 9 / 5) + 32
+    lowTemperature: function () {
+        //assigning value to the variable cold
+        var cold = "Very cold weather expected"
 
-        // returning the value of Fahrenheit
-        return toFahrenheit
+        // returning the value of cold
+        return cold
     }
 }
 // printing out the values to the console by passing the appropriate arguments
-console.log("Temperature Intensity = " + temperature.intensity + "\nCelcius = " + temperature.converToCelsius(32) + "C" + "\nFahrenheit = " + temperature.converToFahrenheit(100) + "F")
+console.log("Temperature Intensity = " + temperature.intensity + "\n" + temperature.highTemperature + "\n " + temperature.lowTemperature)
 
 /**================================================================================================================================================================================ */
 
 /* declaring the object math and defining it with keys and its values */
-var math = {
-    number: "",
-    // declaring the method/function square and its parameter num2
-    square: function (num2) {
+var fish = {
+    name: "Willy",
+    type: "Dolphin",
+    gender: "Male",
+    age: 5,
+    weight: 50,
+    
+    // declaring the method/function swim
+    swim: function () {
         // formula for squaring 2 numbers
-        var num1 = num2 * num2;
+        var move = "swims very fast";
 
-        //returning the value num1
-        return num1
+        //returning the value move
+        return move
     },
-    // declaring the method(function) cylinderVolume and its parameters radius and height
-    cylinderVolume: function (radius, height) {
+    // declaring the method(function) sound
+    sound: function () {
         // the constant value of Pi
-        var pie = 22 / 7
-
-        // the formula for finding the volume of a cylinder
-        var volume = pie * (radius * radius) * height
+        var pie = "makes a beautiful sound"
 
         // returns the volume
         return volume
@@ -79,7 +93,12 @@ console.log("Square = " + math.square(9) + " units" + "\nVolume of Cylinder = " 
 
 /* declaring the object taxi and defining it with keys and its values */
 var taxi = {
-    name: "toyota", color: "yellow", numberPlate: "UAX24J",
+    name: "toyota", 
+    color: "yellow", 
+    numberPlate: "UAX24J",
+    seats: "4 seater",
+    engineType: "XR4",
+    
     //declaring method/function request and declaring two parameters
     request: function (location, kmRadius) {
         // conditional statement to check the exact location(longitude/lattitude) and kilometer radius of the Taxi
