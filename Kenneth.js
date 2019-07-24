@@ -10,7 +10,7 @@ var teacher = {
         return physic;
     },
     tribe: function() { //method tribe for the object teacher
-        var indian = 'Osman is a pure luo from Gulu.';
+        var luo = 'Osman is a pure luo from abroad.';
         return indian;
     }
 }
