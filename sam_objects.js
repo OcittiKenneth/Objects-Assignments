@@ -44,7 +44,7 @@ var weather = {
         //assigning value to the variable heat
         var heat = "Heatwave Expected in the coming few weeks."
 
-        // returning the value of Celcius
+        // returning the value of heat
         return heat
     },
     //declaring converFahrenheit method/function and declaring a parameter celcius
@@ -71,7 +71,7 @@ var fish = {
     
     // declaring the method/function swim
     swim: function () {
-        // formula for squaring 2 numbers
+        //assigning value to the variable move
         var move = "swims very fast";
 
         //returning the value move
@@ -87,7 +87,7 @@ var fish = {
     }
 }
 // prints out the values by passing arguments
-console.log("Square = " + math.square(9) + " units" + "\nVolume of Cylinder = " + math.cylinderVolume(2, 2) + " units")
+console.log(fish.swim, fish.sound)
 
 /**================================================================================================================================================================================ */
 
@@ -131,7 +131,12 @@ console.log(taxi.request(10, 100), taxi.reject(7))
 
 /* declaring the object courseUnits and defining it with keys and its values */
 var courseUnits = {
-    year: "Fourth", semester: "First",
+    year: "Fourth", 
+    semester: "First",
+    duration: "4 months",
+    type: "accelerated learning",
+    difficulty: "intermediate",
+    
     //declaring the function marks and passing it 4 parameters
     marks: function (networking, mobileComputing, programming, gameDev) {
         // adding all the marks and assigning their sum to a variable totalMarks
