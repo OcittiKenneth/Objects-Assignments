@@ -38,7 +38,7 @@ var gun = {
 
     use: function () {
 
-        var user = "this gun is mainly used by snippers for long range shots";
+        var user = "long range shots";
         return user;
     }
 }
