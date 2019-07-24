@@ -6,8 +6,8 @@ var teacher = {
     lastName: 'Ozzy',
 
     subject: function() { //method subject for the object teacher
-        var physic = "Am a teacher of physics in 'A' Level.";
-        return physic;
+        var javascript = "Am a teacher of Javascript.";
+        return javascript;
     },
     tribe: function() { //method tribe for the object teacher
         var luo = 'Osman is a pure luo from abroad.';
