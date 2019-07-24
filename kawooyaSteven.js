@@ -35,6 +35,18 @@ var shoe = {
     material: "leather",
     purpose: "running"
 
+    
+        lowEnd: function () {
+
+        var cost = "affordable";
+        return lowEnd;
+    }
+        premium : function () {
+
+        var price = "office";
+        return premium;
+    }
+    
 }
 document.write(shoe.brand);
 
