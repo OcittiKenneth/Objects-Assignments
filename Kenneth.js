@@ -10,16 +10,16 @@ var teacher = {
         return javascript;
     },
     tribe: function() { //method tribe for the object teacher
-        var luo = 'Osman is a pure luo from abroad.';
-        return indian;
+        var alur = 'Samson is an alur from westnile.';
+        return alur;
     }
 }
 console.log(teacher.subject()); //outputting result for object teacher
 console.log(teacher.tribe()); //outputting result for object teacher
 
  /* Object for book*/
-var book = {
-    type: 'picfare',
+var stationery = {
+    type: 'book',
     color: 'blue',
     size: 'small',
     lenght: 120,
@@ -45,13 +45,13 @@ var company = {
     year: 2013,
     sponsor: 'NORAD',
 
-    student: function() { //method student for the object company
-        var role = 'Attending classes and delivering works.';
+    cleaner: function() { //method student for the object company
+        var role = 'Making sure the place is clean every morning.';
         return role;
     },
     staff: function() { //method staff for the object company  
-        var lecturer = 'Jackson is the best facilitator of javascript in Laboremus.';
-        return lecturer;
+        var facilitators = 'Laboremus has the best facilitators of javascript in Uganda';
+        return facilitators;
     }
 }
 console.log(company.student()); // outputting for object company   
@@ -87,8 +87,8 @@ var person = {
     origin: 'Agentina',
 
     like: function() { //method like for the object person
-        var mangoes = "It's my favourite fruit.";
-        return mangoes;
+        var programing = "It's my favourite work and am so passionate about it.";
+        return programing;
     },
     dislike: function() { //method dislike for the object person
         var fish = "Fish is the food you can eat but sometimes it's not bony.";
