@@ -109,28 +109,27 @@ console.log(donkey.name+" "+donkey.work());
 
 
 /* 
-  declaration of an object cow with its different properties
+  declaration of a parameterized function with its different properties
   as defined below
 */
-var cow ={
-    name:"Bihogo",
-    gender:"female",
-    color:"spotted",
-    DoB:2017,
-    owner:"Irene",
-    
-    // declaration of a function graze with a return statement
-    graze:function(){
-        var feeds = "likes feeding on grass";
-        return feeds;
-    },
-    // declaration of a function run with a return statement
-    run:function(){
-        var sprint = "can run faster than all the cows";
-        return sprint;
-    }
-}
-//printing the out put of the methods to the console
-console.log(cow.name+" "+"is a "+cow.gender+" "+cow.color+" cow born in  "+cow.DoB+"."+"It is owned by  "+cow.owner+ " "+"and "+cow.graze());
-console.log(cow.name+" "+cow.run());
+var building ={
+  name:"Mapeera",
+  location:"city square",
+  color:"blue",
+  type:"flat",
+  owner:"Centenary bank",
   
+  // declaration of a function housing with a return statement
+  housing:function(){
+      var house = "houses the Centenary bank";
+      return house;
+  },
+  // declaration of a function sitting with a return statement
+  sitting:function(){
+      var room = "has so many rooms for different bank departments";
+      return room;
+  }
+}
+  //printing the out put of the methods to the console
+  console.log(building.name+" "+building.housing());
+  console.log(building.name+" "+building.sitting());
