@@ -1,9 +1,28 @@
+/*
+5 object assignment
+*/
+
 //object house
 var house = {
 
     type: "bangalow",
     colour: "white",
     location: "muyenga"
+    
+    
+    
+        country: function () {
+
+        var residential = "home";
+        return country;
+    }
+        city : function () {
+
+        var commercial = "office";
+        return city;
+    }
+}
+
 
 } 
 document.write(house.type);
@@ -16,6 +35,18 @@ var shoe = {
     material: "leather",
     purpose: "running"
 
+    
+        lowEnd: function () {
+
+        var cost = "affordable";
+        return lowEnd;
+    }
+        premium : function () {
+
+        var price = "office";
+        return premium;
+    }
+    
 }
 document.write(shoe.brand);
 
@@ -38,8 +69,8 @@ var gun = {
 
     use: function () {
 
-        var user = "this gun is mainly used by snippers for long range shots";
-        return user;
+        var user = "long range shots";
+        return use;
     }
 }
 document.write(gun.use());
@@ -54,8 +85,12 @@ var politician = {
 
     use: function () {
 
-        var needHelp = "this guy is properly useless";
-        return user;
+        var needHelp = "properly useless";
+        return use;
+    }
+    head: function () {
+
+        var sense = "none";
+        return head;
     }
 }
-document.write(politician.needHelp());

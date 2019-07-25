@@ -4,10 +4,11 @@
 //1.
 
 
-// declaring the object "kampala" and defining it with keys and its values 
-var kampala={
-  // this contains 5 keys
+// declaring the object "city" and defining it with keys and its values 
+var city ={
+  // this contains 6 keys
   // using the "camel notation to name."
+  name : "kampala",
   size : "quiteBig",
   hills : 5,
   roads :"bad😆",
@@ -22,9 +23,9 @@ var kampala={
     var trees = "The trees are cut for firewood🤔";
     return trees;
   }
-}
+};
 // this is a command calling to print out the contents of the key "hills" in the console
-console.log(kampala.hills);
+console.log(city.hills);
 
 
 
@@ -32,12 +33,12 @@ console.log(kampala.hills);
 //2.
 
 
-// declaring the object "Entebbe" and defining it with keys and its values 
-var Entebbe={
-  // this contains 5 keys
-  // using the "camel notation to name."
+// declaring the object "country" and defining it with keys and its values 
+var country ={
+  // this contains 6 keys
+  name : "switzerland",
   size : "quiteSmall▫",
-  hills : 2,
+  hills : "mountaineous",
   roads :"superb🎁",
   // 
   weather :function(){
@@ -50,19 +51,19 @@ var Entebbe={
     var trees = "The trees are well preserved";
     return trees;
   }
-}
+};
 // this is a command calling to print out the contents of the key "size" in the console
-console.log(Entebbe.size);
+console.log(country.size);
 
 
 //==========================================================================================================================================
 //3.
 
 
-// declaring the object "Mukono" and defining it with keys and its values 
-var Mukono={
-  // this contains 5 keys
-  // using the "camel notation to name."
+// declaring the object "town" and defining it with keys and its values 
+var town ={
+  // this contains 6 keys
+  name : "mukono",
   size : "small_ish",
   hills : 3,
   roads :"poor😢",
@@ -77,21 +78,21 @@ var Mukono={
     var trees = "many in number";
     return trees;
   }
-}
+};
 // this is a command calling to print out the contents of the key "weather",which is a function, in the console
-console.log(Mukono.weather());
+console.log(town.weather());
 
 
 //=======================================================================================================================================================
 //4.
 
 
-// declaring the object "Jinja" and defining it with keys and its values 
-var Jinja={
-  // this contains 5 keys
-  // using the "camel notation to name."
+// declaring the object "continent" and defining it with keys and its values 
+var continent ={
+  // this contains 6 keys
+  name : "Asia",
   size : "behemoth",
-  hills : 8,
+  hills : "cant count",
   roads :"getting better💯",
   // 
   weather :function(){
@@ -101,23 +102,23 @@ var Jinja={
   // using a comma at the end of this object because it is still just a key.
   // this key "vegetation" has one method
   vegetation : function(){
-    var trees = "The city council cuts down trees rampantly but NGO's are planting more and more🥴";
+    var trees = "very green continent🥴";
     return trees;
   }
-}
+};
 // this is a command calling to print out the contents of the key "vegetation" in the console
-console.log(Jinja.vegetation());
+console.log(continent.vegetation());
 
 //=================================================================================================================================================
 //5.
 
 
-// declaring the object "mbarara" and defining it with keys and its values 
-var mbarara={
-  // this contains 5 keys
-  // using the "camel notation to name."
-  size : "quiteBig😎",
-  hills : 20,
+// declaring the object "planet" and defining it with keys and its values 
+var planet={
+  // this contains 6 keys
+  name : "Earth",
+  size : "Big✔",
+  hills : "a billion",
   roads :"average👀",
   // 
   weather :function(){
@@ -132,7 +133,7 @@ var mbarara={
   }
 }
 // this is a command calling to print out the contents of the key "roads" in the console
-console.log(mbarara.roads);
+console.log(planet.roads);
 
 
 //============================================================================================================================================================
