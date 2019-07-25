@@ -1,24 +1,32 @@
+/*Assignment one
+Create five objects with 5 properties and two methods*/
 //first object car
 var car={
-    model: "toyota",
-    brand: "vitz",
+    model: "Toyota",
+    brand: "Vitz",
     type: "saloon",
+    price:"5 million",
 
  moves: function(){
      //method description
     document.write(car.brand+" can move 230km a day"+"<br/>");
     document.write(car.brand+" is a "+ car.type+" car and its really fast. <br />");
  }
+ lift:function(){
+    document.write("This " +car.price + " saloon car can also lift luggage if loaded. <br />")
+ }
 
 }
 //method invokation
 car.moves();
+car.lift();
 
 // second object baby
 var baby={
     name:"Eve",
     skinColor:"brown",
     age:3,
+    weight:"35kg",
 
     cry: function(){    
         //function definition
@@ -62,28 +70,29 @@ bicycle.changingGears();
 
 //fourth object eagle
 var eagle={
-    beak:"a strong beak",
-    wings:2,
-    age:3,
-    claws:10,
-    eyes:2,
-
+    name:"Gurney's eagle",
+    length:"30cm",
+    color:"dark brown",
+    weight:"3.06kg", 
+    location:"Australia",
+    age:35,
+    
     fly: function(){    
         //function definition
-        document.write("<br />The eagle has "+ eagle.wings +" that it uses to fly very high. ");
+        document.write("<br />" +eagle.name+ " has wings that it uses to fly very high. ");
          },
     eat: function(){    
         //function definition
-        document.write(" An eagle views its prey 5km away using its "+eagle.eyes +
-        "and its strong "+eagle.claws+" claws to catch the prey and eat. <br />");
+        document.write(" It views its prey 5km away using its eyes and uses its strong"+ 
+        " claws to catch the prey and eat. <br />");
             },
-    pluckOffFeathers: function(){
+    rebirth: function(){
         //function definition
-        if (eagle.age>2){
-            document.write("The eagle plucks off its feathers, "+
-            " beak and claws on rocks and bears new ones <br />");
+        if (eagle.age>30){
+            document.write(" The eagle plucks off its feathers, "+
+            " beak and claws on rocks and bears new ones. <br />");
         }else{
-            document.write("the eagle flies higher in the skies <br />");
+            document.write(" It is still young and fresh. <br />");
         }
 
     }
@@ -91,7 +100,7 @@ var eagle={
 //object method invokation
 eagle.fly();
 eagle.eat();
-eagle.pluckOffFeathers();
+eagle.rebirth();
 
 //fifth object soccerTeam
 var soccerTeam={
@@ -100,13 +109,13 @@ var soccerTeam={
     coach:3,
     sponsor:1,
     
-    playMatches: function(){   
+    engageInCompetitions: function(){   
          //function definition
         document.write("<br />"+soccerTeam.name+" plays over 300 matches annually. <br />");
         },
     entertainment: function(){   
          //function definition
-        document.write(soccerTeam.players+" players are in barca and has ");
+         document.write(soccerTeam.players+" players are in barca and there are only ");
         document.write(soccerTeam.coach +" coaches.");
     },
     training: function(){
@@ -114,6 +123,6 @@ var soccerTeam={
     }
 }
 //object method invokation
-soccerTeam.playMatches();
+soccerTeam.engageInCompetitions();
 soccerTeam.entertainment();
 soccerTeam.training();
