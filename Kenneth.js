@@ -17,7 +17,8 @@ var teacher = {
 console.log(teacher.subject()); //outputting result for object teacher
 console.log(teacher.tribe()); //outputting result for object teacher
 
- /* Object for book*/
+/* Object for book*/
+/* small change */
 var stationery = {
     type: 'book',
     color: 'blue',
